@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    background-color: hsl(226, 43%, 10%);
+}
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 130px 275px;
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Rubik', sans-serif;
+}
+.part1 article:first-child{
+    background-color: hsl(246, 80%, 60%);
+width: 100px;
+height: 180px;
+border-radius: 10px;
+margin: 20px 20px 0px 20px;
+padding: 20px;
+}
+.part1 img{
+    height: 40px;
+    border: 2px solid hsl(236, 100%, 87%);
+    border-radius: 50px;
+}
+.part1 article:first-child p:first-child{
+    font-size:10px ;
+    color: hsl(236, 100%, 87%);
+    padding-top: 20px; 
+}
+.part1 article:first-child p:last-child{
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif;
+    color: hsl(236, 100%, 87%); 
+   
+}
+.part1 article:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: -8px 20px 20px 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 0px 0px 10px 10px;
+    height: 70px;
+    width: 100px;
+}
+.part1 article:last-child p{
+    color: hsl(235, 45%, 61%);
+    font-size: 10px;
+    padding: 5px;
+    font-weight: bold;
+    z-index: 1;
+}
+
+
+  
+
+.part2{
+    display: flex;
+    font-family: 'Rubik', sans-serif;
+}
+
+.card1a div:first-child{
+    display: flex;
+    background-color: hsl(15, 100%, 70%);
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-bottom: -55px;
+}
+.card1a div:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    text-align: center; 
+    position: relative; 
+}
+.card1a div:last-child p:last-child{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.card1a span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.card1a span img{
+    width: 15px;
+    height: 5px;
+   padding-top: 10px;
+}
+.card1a h5{
+    font-weight: bolder;
+     color: white; 
+     font-size: 10px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+
+
+.card1b div:first-child{
+    display: flex;
+    background-color:  hsl(195, 74%, 62%);
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-bottom: -55px;
+}
+.card1b div:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+}
+.card1b div:last-child p:last-child{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.card1b span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.card1b span img{
+    width: 15px;
+    height: 5px;
+   padding-top: 10px;
+}
+.card1b h5{
+    font-weight: bolder;
+     color: white; 
+     font-size: 10px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+
+
+.card1c div:first-child{
+    display: flex;
+    background-color: hsl(348, 100%, 68%);
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-bottom: -55px;
+}
+.card1c div:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+}
+.card1c div:last-child p:last-child{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.card1c span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.card1c span img{
+    width: 15px;
+    height: 5px;
+   padding-top: 10px;
+}
+.card1c h5{
+    font-weight: bolder;
+     color: white; 
+     font-size: 10px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+
+
+.part3{
+    display: flex;
+}
+.card2a div:first-child{
+    display: flex;
+    background-color: hsl(145, 58%, 55%);
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-bottom: -55px;
+}
+.card2a div:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+}
+.card2a div:last-child p:last-child{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.card2a span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.card2a span img{
+    width: 15px;
+    height: 5px;
+   padding-top: 10px;
+}
+.card2a h5{
+    font-weight: bolder;
+     color: white; 
+     font-size: 10px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+
+
+.card2b div:first-child{
+    display: flex;
+    background-color: hsl(264, 64%, 52%);
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-bottom: -55px;
+}
+.card2b div:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+}
+.card2b div:last-child p:last-child{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.card2b span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.card2b span img{
+    width: 15px;
+    height: 5px;
+   padding-top: 10px;
+}
+.card2b h5{
+    font-weight: bolder;
+     color: white; 
+     font-size: 10px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+
+
+.card2c div:first-child{
+    display: flex;
+    background-color: hsl(43, 84%, 65%);
+    width: 140px;
+    height: 70px;
+    border-radius: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 20px;
+    margin-bottom: -55px;
+}
+.card2c div:last-child{
+    background-color: hsl(235, 46%, 20%);
+    margin: 20px;
+    padding: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
+    height: 70px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+}
+.card2c div:last-child p:last-child{
+    color: white;
+    font-size: 10px;
+    padding-top: 10px;
+}
+.card2c span{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+
+}
+.card2c span img{
+    width: 15px;
+    height: 5px;
+   padding-top: 10px;
+}
+.card2c h5{
+    font-weight: bolder;
+     color: white; 
+     font-size: 10px;
+     padding-top: 5px;
+     padding-bottom: 10px;
+}
+.attribution { 
+    font-size: 15px; 
+    text-align: center;
+    font-family: "Outfit";
+ }
+    .attribution a {
+         color: hsl(236, 100%, 87%);
+         }
+        
